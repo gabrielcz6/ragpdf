@@ -159,7 +159,7 @@ class DocumentRetriever:
 
 
             print("Antes de agregar documentos...")
-            input(type(summary_img))
+            #input(type(summary_img))
             self.retriever.vectorstore.add_documents(summary_img[0:50])
             print("Documentos agregados al vectorstore ✅")
         
